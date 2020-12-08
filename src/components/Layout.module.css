@@ -1,12 +1,12 @@
 #header {
   font-family: 'Oswald', sans-serif;
-  background: url('/coffee.jpg');
+  background: url('/tea-drinks.jpg');
   background-size: cover;
   color: #FFFFFF;
 }
 
 #header #inner {
-  background: rgba(119, 79, 56, 0.85);
+  background: rgba(40, 140, 40, 0.85);
   padding: 1rem;
 }
 

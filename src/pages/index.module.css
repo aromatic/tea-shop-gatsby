@@ -1,5 +1,5 @@
 #hero {
-  background: url('/latte.jpg');
+  background: url('/tea-drinks.jpg');
   background-size: cover;
   height: 35rem;
   display: flex;
@@ -14,5 +14,5 @@
   font-size: 5rem;
   padding: 0.5rem;
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(160, 255, 0, 0.5);
 }
