@@ -3,6 +3,14 @@ module.exports = {
     title: "Aroma Tea"
   },
   plugins: [
-    'gatsby-plugin-netlify-cms'
+      'gatsby-plugin-netlify-cms',
+      {
+        resolve: 'gatsby-source-filesystem',
+        options: {
+          name: 'blog',
+          path: 'src/blog'
+        }
+      },
+      'gatsby-transformer-remark'
     ]
 };
